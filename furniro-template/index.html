@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo.png" />
+    <script
+      src="https://kit.fontawesome.com/32b721850a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Furniro</title>
+  </head>
+  <body>
+    <nav class="vertical-xs-padding">
+      <div class="big-container d-flex justify-between">
+        <div class="logo-container d-flex align-items-center">
+          <div class="img-container d-flex align-items-center">
+            <img src="images/logo.png" alt="Furniro Logo" />
+          </div>
+          <a href="#"><h1 class="letter-spacing montserrat">Furniro</h1></a>
+        </div>
+        <ul class="nav-links d-flex text-bold">
+          <li><a href="#" class="margin-right text-small">Home</a></li>
+          <li><a href="#" class="margin-right text-small">Shop</a></li>
+          <li><a href="#" class="margin-right text-small">About</a></li>
+          <li><a href="#" class="text-small">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero-section">
+      <div class="overlay d-flex">
+        <div
+          class="big-container vertical-xs-padding d-flex align-items-center flex-column"
+        >
+          <div class="img-container">
+            <img src="images/logo.png" alt="Furniro Logo" />
+          </div>
+          <h2 class="text-bold text-x-large margin-top">Cart</h2>
+          <span class="margin-top text-small text-bold"
+            >Home > <span class="text-thin">Cart</span></span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="cart-section">
+      <div
+        class="sm-container vertical-default-padding d-flex justify-between align-items-start"
+      >
+        <table class="product-table">
+          <tr class="bg-light">
+            <th class="text-small text-bold invisible">Image</th>
+            <th class="text-small text-bold">Product</th>
+            <th class="text-small text-bold">Price</th>
+            <th class="text-small text-bold">Quantity</th>
+            <th class="text-small text-bold">Subtotal</th>
+            <th class="text-small text-bold invisible">Delete</th>
+          </tr>
+          <tr class="spacer"></tr>
+          <tr>
+            <td>
+              <img
+                src="images/asgaard-sofa.png"
+                alt="Sofa"
+                class="bg-light border-radius"
+              />
+            </td>
+            <td class="text-grey text-small text-center">Asgaard sofa</td>
+            <td class="text-grey text-small text-center">Rs. 250,000.00</td>
+            <td class="text-grey text-small text-center">
+              <span class="quantity">1</span>
+            </td>
+            <td class="text-small text-center">Rs. 250,000.00</td>
+            <td class="text-center">
+              <i class="fa-solid fa-trash text-gold"></i>
+            </td>
+          </tr>
+        </table>
+        <div class="invoice bg-light">
+          <h2 class="text-center text-bolder big-margin-bottom">Card Totals</h2>
+          <table class="m-auto">
+            <tr>
+              <td class="text-bold text-small">Subtotal</td>
+              <td class="text-grey text-small">Rs. 250,000.00</td>
+            </tr>
+            <tr>
+              <td class="text-bold text-small">Total</td>
+              <td class="text-gold text-small">Rs. 250,000.00</td>
+            </tr>
+          </table>
+          <button class="m-auto check-out-btn border-radius">Check Out</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-section" class="bg-light">
+      <div
+        class="big-container vertical-default-padding d-flex justify-between"
+      >
+        <div class="card d-flex align-items-center text-charcoal">
+          <i class="fa-solid fa-trophy text-xx-large"></i>
+          <div class="text">
+            <h3 class="text-bolder">High Quality</h3>
+            <p class="text-grey text-small">Crafted from top materials</p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center text-charcoal">
+          <i class="fa-regular fa-circle-check text-xx-large"></i>
+          <div class="text">
+            <h3 class="text-bolder">Warranty Protection</h3>
+            <p class="text-grey text-small">Over 2 years</p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center text-charcoal">
+          <i class="fa-solid fa-hand-holding-heart text-xx-large"></i>
+          <div class="text">
+            <h3 class="text-bolder">Free Shipping</h3>
+            <p class="text-grey text-small">Order over 150 $</p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center text-charcoal">
+          <i class="fa-solid fa-headset text-xx-large"></i>
+          <div class="text">
+            <h3 class="text-bolder">24 / 7 Support</h3>
+            <p class="text-grey text-small">Dedicated support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="sm-container vertical-default-padding">
+        <div class="cards-container d-flex justify-between">
+          <div class="card w-25">
+            <h4 class="big-margin-bottom">Furniro.</h4>
+            <p class="text-grey text-small margin-top text-thin">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+              soluta.
+            </p>
+            <p class="text-thin text-grey text-small margin-top">
+              Lorem, ipsum dolor.
+            </p>
+          </div>
+          <div class="card">
+            <h5 class="text-grey text-small text-bold">Links</h5>
+            <ul>
+              <li><a href="#" class="text-bold text-small">Home</a></li>
+              <li><a href="#" class="text-bold text-small">Shop</a></li>
+              <li><a href="#" class="text-bold text-small">About</a></li>
+              <li><a href="#" class="text-bold text-small">Contact</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h5 class="text-grey text-small text-bold">Help</h5>
+            <ul>
+              <li>
+                <a href="#" class="text-bold text-small">Payment Options</a>
+              </li>
+              <li><a href="#" class="text-bold text-small">Returns</a></li>
+              <li>
+                <a href="#" class="text-bold text-small">Privacy Policies</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h5 class="text-grey text-small text-bold big-margin-bottom">
+              Newsletter
+            </h5>
+            <form>
+              <input type="text" placeholder="Enter Your Email Address" />
+              <button>SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+        <hr class="border-grey" />
+        <small class="text-bold">2023 Furniro. ALl rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+</html>
