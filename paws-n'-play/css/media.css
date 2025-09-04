@@ -1,0 +1,105 @@
+@media (max-width: 566px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .vertical-default-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .hide-sm {
+    display: none;
+  }
+  .appear-sm {
+    display: block !important;
+  }
+  .hero-bg {
+    background-size: cover;
+    background-position: 34%;
+  }
+  #hero-section {
+    height: calc(100vh - 47px);
+  }
+  .text-container {
+    width: 98%;
+  }
+  .vertical-sm-padding {
+    padding-top: 4%;
+  }
+  .text-xx-large {
+    font-size: 30px;
+  }
+
+  #shop-section .img-container {
+    width: 100%;
+  }
+
+  .wrapper-border {
+    border: 0;
+  }
+
+  .wrapper-padding {
+    padding: 0;
+  }
+  .m-top-big {
+    margin-top: 25px;
+  }
+  .people {
+    width: 100%;
+  }
+  .people + .img-container {
+    width: 100%;
+    height: 160px;
+  }
+  .adoption {
+    aspect-ratio: 2 / 1.5;
+    transform: translateY(-50px);
+  }
+  .about-us > div {
+    width: 100%;
+  }
+
+  #team-section .doctor-info {
+    width: 48%;
+  }
+
+  .w-100-sm {
+    width: 100% !important;
+  }
+
+  .w-50-sm {
+    width: 50%;
+  }
+
+  .flex-wrap-reverse-sm {
+    flex-wrap: wrap-reverse !important;
+  }
+
+  .form-and-text-container > div {
+    width: 100%;
+  }
+
+  footer .text > div {
+    width: 50%;
+  }
+
+  .all-padding {
+    padding: 15px;
+  }
+
+  .flex-col-sm {
+    flex-direction: column;
+  }
+
+  .align-stretch-sm {
+    align-items: stretch;
+  }
+
+  .m-top-sm-screen {
+    margin-top: 10px;
+  }
+
+  .no-m-left-sm-sc {
+    margin-left: 0;
+  }
+}
