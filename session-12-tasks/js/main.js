@@ -1,6 +1,5 @@
 // Degree System
 // var degree = prompt("What is your degree?");
-
 // if (degree > 100 || degree < 0) console.log("Invalid degree");
 // else if (degree >= 90) console.log("A");
 // else if (degree >= 80) console.log("B");
@@ -22,30 +21,47 @@
 // }
 
 // Looping Task
-function looping(startNum, endNum, continueNum, breakNum) {
-  if (
-    startNum == undefined ||
-    endNum == undefined ||
-    breakNum == undefined ||
-    continueNum == undefined
-  ) {
-    console.log("Please enter all numbers");
-    return;
-  } else if (startNum > endNum) {
-    console.log("Start Number must be less than End NUmber");
-    return;
-  } else if (breakNum <= continueNum) {
-    console.log("Break Number must be greater than Continue Number");
-    return;
-  }
+// function looping(startNum, endNum, continueNum, breakNum) {
+//   if (
+//     startNum == undefined ||
+//     endNum == undefined ||
+//     breakNum == undefined ||
+//     continueNum == undefined
+//   ) {
+//     console.log("Please enter all numbers");
+//     return;
+//   } else if (startNum > endNum) {
+//     console.log("Start Number must be less than End NUmber");
+//     return;
+//   } else if (breakNum <= continueNum) {
+//     console.log("Break Number must be greater than Continue Number");
+//     return;
+//   }
 
-  for (var i = startNum; i <= endNum; i++) {
-    if (i == continueNum) continue;
-    else if (i == breakNum) break;
-    else console.log(i);
+//   for (var i = startNum; i <= endNum; i++) {
+//     if (i == continueNum) continue;
+//     else if (i == breakNum) break;
+//     else console.log(i);
+//   }
+// }
+
+// looping(1, 5);
+// looping(1, 5, 3);
+// looping(1, 5, 2, 4);
+
+// Array Task
+var courses = ["HTML", "CSS", "JS"];
+var input = prompt("Enter a course");
+var found = false;
+for (var i = 0; i < courses.length; i++) {
+  if (courses[i] == input) {
+    console.log("Course already present");
+    found = true;
+    break;
   }
 }
-
-looping(1, 5);
-looping(1, 5, 3);
-looping(1, 5, 2, 4);
+if (!found) {
+  courses.push(input);
+  console.log("Course added successfully");
+}
+console.log(courses);
