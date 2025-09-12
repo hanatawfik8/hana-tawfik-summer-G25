@@ -1,0 +1,3206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>Home - Merto</title>
+  </head>
+  <body>
+    <header id="header">
+      <div
+        class="container-fluid px-5 d-flex justify-content-between align-items-center fsize-xs py-2 border-bottom text-black"
+      >
+        <div class="left d-flex align-items-center gap-3">
+          <span class="d-flex align-items-center gap-1 color-hover">
+            <img src="images/english.png" alt="English" class="me-1" /> English
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="color-hover"
+            >
+              <path
+                d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+              ></path>
+            </svg>
+          </span>
+          <span class="d-flex align-items-center gap-1 color-hover">
+            USD
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
+              ></path>
+            </svg>
+          </span>
+          <div class="divider"></div>
+          <span class="color-hover">Track Order</span>
+          <a href="contact.html" class="color-hover">Contact</a>
+          <span class="color-hover">FAQs</span>
+        </div>
+
+        <div class="right d-flex h-auto gap-3 align-items-center">
+          <ul class="social-media-links list-unstyled d-flex gap-3 h-auto m-0">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                ></path>
+              </svg>
+            </li>
+          </ul>
+          <div class="divider"></div>
+          <div class="contact color-hover d-flex gap-2 align-items-center">
+            <span>Contact us 24/7</span>
+            <span class="fw-semibold">(+92) 3942 7879</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-white flex-column p-0">
+      <div
+        class="container-fluid px-5 d-flex justify-content-between py-3 bg-white z-3 nav-js"
+      >
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo-home.png" alt="Merto Logo" class="logo-size"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="d-lg-flex align-items-center d-none bg-body-tertiary rounded w-50 justify-content-between"
+        >
+          <div class="dropdown position-relative w-25">
+            <button
+              class="btn fsize-sm border-0 fw-semibold px-4 py-3 d-flex align-items-center"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              All Categories
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="ms-1"
+              >
+                <path
+                  d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+                ></path>
+              </svg>
+            </button>
+            <ul class="dropdown-menu rounded-0 fsize-sm overflow-auto">
+              <!--  -->
+              <li><a class="dropdown-item" href="#">Autopart</a></li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Accessories</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Car Care</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Car Electronics</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Equipment</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Lights</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Oils & Fluids</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Tires</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Wheels</a>
+              </li>
+              <!--  -->
+              <li><a class="dropdown-item" href="#">Beauty & Health</a></li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Bags & Cases</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">BB Creams</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Body & Baths</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Brushes & Tools</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Haircare</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Lipstick</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Makeup</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Makeup Palettes</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Mascara</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Mask</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Nail Care</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Skincare</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Toner</a>
+              </li>
+              <!--  -->
+              <li><a class="dropdown-item" href="#">Electronic</a></li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Apple</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Camera</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Controller</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Headphones</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Smartwatch</a>
+              </li>
+              <li class="ps-3">
+                <a class="dropdown-item" href="# ">Speaker</a>
+              </li>
+            </ul>
+          </div>
+          <div class="search-container d-flex w-75 justify-content-between">
+            <input
+              type="text"
+              placeholder="Search for products"
+              class="border-0 px-3 bg-body-tertiary fsize-sm w-100"
+            />
+            <div
+              class="search-icon d-flex justify-content-center align-items-center bg-orange p-3 m-1 rounded"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="#fff"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <div
+            class="user-preferences d-flex fsize-sm align-items-center gap-4"
+          >
+            <span
+              class="d-flex align-items-center gap-2 fw-semibold color-hover"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+              Account
+            </span>
+            <span class="position-relative color-hover">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                ></path>
+              </svg>
+              <span
+                class="number position-absolute bg-orange text-white rounded-circle fsize-xs fw-semibold"
+                >0</span
+              >
+            </span>
+            <span class="color-hover position-relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                ></path>
+              </svg>
+              <span
+                class="number position-absolute bg-orange text-white rounded-circle fsize-xs fw-semibold"
+                >0</span
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid px-5 justify-content-between border-1 d-flex">
+        <div class="left d-flex align-items-center gap-4 fsize-sm">
+          <div class="position-relative">
+            <span
+              class="fsize-sm fw-semibold text-uppercase d-flex align-items-center gap-2 py-3 px-4 text-white bg-orange rounded-top"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="#fff"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M228,128a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,128ZM40,76H216a12,12,0,0,0,0-24H40a12,12,0,0,0,0,24ZM216,180H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Z"
+                ></path>
+              </svg>
+              shop by categories
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="#fff"
+                viewBox="0 0 256 256"
+                class="ms-5"
+              >
+                <path
+                  d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+                ></path>
+              </svg>
+            </span>
+            <ul class="list-unstyled position-absolute top-100 w-100 z-1">
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M240,106.17V72a16,16,0,0,0-16-16H32A16,16,0,0,0,16,72v34.17A16,16,0,0,0,8,120v48a16,16,0,0,0,16,16h8v16a8,8,0,0,0,16,0V184H208v16a8,8,0,0,0,16,0V184h8a16,16,0,0,0,16-16V120A16,16,0,0,0,240,106.17ZM224,104h-8a16,16,0,0,0-16,16v16H136V72h88ZM120,72v64H56V120a16,16,0,0,0-16-16H32V72Zm112,96H24V120H40v24a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V120h16Z"
+                  ></path>
+                </svg>
+                Living Room
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M216,72H32V48a8,8,0,0,0-16,0V208a8,8,0,0,0,16,0V176H240v32a8,8,0,0,0,16,0V112A40,40,0,0,0,216,72ZM32,88h72v72H32Zm88,72V88h96a24,24,0,0,1,24,24v48Z"
+                  ></path>
+                </svg>
+                Bedroom
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M224,112H32a8,8,0,0,0-8,8,104.35,104.35,0,0,0,56,92.28V216a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16v-3.72A104.35,104.35,0,0,0,232,120,8,8,0,0,0,224,112Zm-59.34,88a8,8,0,0,0-4.66,7.27V216H96v-8.71A8,8,0,0,0,91.34,200a88.29,88.29,0,0,1-51-72H215.63A88.29,88.29,0,0,1,164.66,200ZM81.77,55c5.35-6.66,6.67-11.16,6.12-13.14-.42-1.49-2.41-2.26-2.43-2.26A8,8,0,0,1,88,24a8.11,8.11,0,0,1,2.38.36c1,.31,9.91,3.33,12.79,12.76,2.46,8.07-.55,17.45-8.94,27.89-5.35,6.66-6.67,11.16-6.12,13.14.42,1.49,2.37,2.24,2.39,2.25A8,8,0,0,1,88,96a8.11,8.11,0,0,1-2.38-.36c-1-.31-9.91-3.33-12.79-12.76C70.37,74.81,73.38,65.43,81.77,55Zm40,0c5.35-6.66,6.67-11.16,6.12-13.14-.42-1.49-2.41-2.26-2.43-2.26A8,8,0,0,1,128,24a8.11,8.11,0,0,1,2.38.36c1,.31,9.91,3.33,12.79,12.76,2.46,8.07-.55,17.45-8.94,27.89-5.35,6.66-6.67,11.16-6.12,13.14.42,1.49,2.37,2.24,2.39,2.25A8,8,0,0,1,128,96a8.11,8.11,0,0,1-2.38-.36c-1-.31-9.91-3.33-12.79-12.76C110.37,74.81,113.38,65.43,121.77,55Zm40,0c5.35-6.66,6.67-11.16,6.12-13.14-.42-1.49-2.41-2.26-2.43-2.26A8,8,0,0,1,168,24a8.11,8.11,0,0,1,2.38.36c1,.31,9.91,3.33,12.79,12.76,2.46,8.07-.55,17.45-8.94,27.89-5.35,6.66-6.67,11.16-6.12,13.14.42,1.49,2.37,2.24,2.39,2.25A8,8,0,0,1,168,96a8.11,8.11,0,0,1-2.38-.36c-1-.31-9.91-3.33-12.79-12.76C150.37,74.81,153.38,65.43,161.77,55Z"
+                  ></path>
+                </svg>
+                Dining Room
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M240,96H208a8,8,0,0,0-8-8H136a8,8,0,0,0-8,8H64V52A12,12,0,0,1,76,40a12.44,12.44,0,0,1,12.16,9.59,8,8,0,0,0,15.68-3.18A28.32,28.32,0,0,0,76,24,28,28,0,0,0,48,52V96H16a8,8,0,0,0-8,8v40a56.06,56.06,0,0,0,56,56v16a8,8,0,0,0,16,0V200h96v16a8,8,0,0,0,16,0V200a56.06,56.06,0,0,0,56-56V104A8,8,0,0,0,240,96Zm-48,8v32H144V104Zm40,40a40,40,0,0,1-40,40H64a40,40,0,0,1-40-40V112H128v32a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V112h24Z"
+                  ></path>
+                </svg>
+                Bathroom
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M72,88V40a8,8,0,0,1,16,0V88a8,8,0,0,1-16,0ZM216,40V224a8,8,0,0,1-16,0V176H152a8,8,0,0,1-8-8,268.75,268.75,0,0,1,7.22-56.88c9.78-40.49,28.32-67.63,53.63-78.47A8,8,0,0,1,216,40ZM200,53.9c-32.17,24.57-38.47,84.42-39.7,106.1H200ZM119.89,38.69a8,8,0,1,0-15.78,2.63L112,88.63a32,32,0,0,1-64,0l7.88-47.31a8,8,0,1,0-15.78-2.63l-8,48A8.17,8.17,0,0,0,32,88a48.07,48.07,0,0,0,40,47.32V224a8,8,0,0,0,16,0V135.32A48.07,48.07,0,0,0,128,88a8.17,8.17,0,0,0-.11-1.31Z"
+                  ></path>
+                </svg>
+                Kitchen Room
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M248,64H8A8,8,0,0,0,8,80h8V192a8,8,0,0,0,16,0V144H224v48a8,8,0,0,0,16,0V80h8a8,8,0,0,0,0-16ZM32,80h88v48H32Zm192,48H136V80h88ZM96,104a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H88A8,8,0,0,1,96,104Zm64,0a8,8,0,0,1,8-8h24a8,8,0,0,1,0,16H168A8,8,0,0,1,160,104Z"
+                  ></path>
+                </svg>
+                Home Office
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M247.35,148.85l-48-112A8,8,0,0,0,192,32H64a8,8,0,0,0-7.35,4.85l-48,112A8,8,0,0,0,16,160H120v48H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V160h56v32a8,8,0,0,0,16,0V160h32a8,8,0,0,0,7.35-11.15ZM28.13,144,69.28,48H186.72l41.15,96Z"
+                  ></path>
+                </svg>
+                Home Decoration
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M232,192H200V168h24a8,8,0,0,0,7.76-9.94l-32-128a8,8,0,0,0-15.52,0l-32,128A8,8,0,0,0,160,168h24v24H120V176h8a8,8,0,0,0,0-16h-8V144h8a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16h8v16H40a8,8,0,0,0,0,16h8v16H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM192,65l21.75,87h-43.5ZM64,144h40v16H64Zm0,32h40v16H64Zm52-80A28,28,0,1,0,88,68,28,28,0,0,0,116,96Zm0-40a12,12,0,1,1-12,12A12,12,0,0,1,116,56Z"
+                  ></path>
+                </svg>
+                Outdoor
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom rounded-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.73,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.27,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-11.55,39.29c-4.79,5-9.75,10.17-12.38,16.52-2.52,6.1-2.63,13.07-2.73,19.82-.1,7-.21,14.33-3.32,17.43s-10.39,3.22-17.43,3.32c-6.75.1-13.72.21-19.82,2.73-6.35,2.63-11.52,7.59-16.52,12.38S132,224,128,224s-9.15-4.92-14.11-9.69-10.17-9.75-16.52-12.38c-6.1-2.52-13.07-2.63-19.82-2.73-7-.1-14.33-.21-17.43-3.32s-3.22-10.39-3.32-17.43c-.1-6.75-.21-13.72-2.73-19.82-2.63-6.35-7.59-11.52-12.38-16.52S32,132,32,128s4.92-9.14,9.69-14.11,9.75-10.17,12.38-16.52c2.52-6.1,2.63-13.07,2.73-19.82.1-7,.21-14.33,3.32-17.43S70.51,56.9,77.55,56.8c6.75-.1,13.72-.21,19.82-2.73,6.35-2.63,11.52-7.59,16.52-12.38S124,32,128,32s9.15,4.92,14.11,9.69,10.17,9.75,16.52,12.38c6.1,2.52,13.07,2.63,19.82,2.73,7,.1,14.33.21,17.43,3.32s3.22,10.39,3.32,17.43c.1,6.75.21,13.72,2.73,19.82,2.63,6.35,7.59,11.52,12.38,16.52S224,124,224,128,219.08,137.14,214.31,142.11ZM120,96a24,24,0,1,0-24,24A24,24,0,0,0,120,96ZM88,96a8,8,0,1,1,8,8A8,8,0,0,1,88,96Zm72,40a24,24,0,1,0,24,24A24,24,0,0,0,160,136Zm0,32a8,8,0,1,1,8-8A8,8,0,0,1,160,168Zm13.66-74.34-80,80a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+                Sale Off
+              </li>
+            </ul>
+          </div>
+
+          <span class="d-flex align-items-center gap-1 fw-medium color-hover">
+            Home
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="ms-1"
+            >
+              <path
+                d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+              ></path>
+            </svg>
+          </span>
+          <span class="d-flex align-items-center gap-1 color-hover fw-medium">
+            Shop
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="ms-1"
+            >
+              <path
+                d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+              ></path>
+            </svg>
+          </span>
+          <span
+            class="d-flex align-items-center gap-1 fw-medium position-relative products"
+          >
+            <span class="color-hover">Products</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="ms-1"
+            >
+              <path
+                d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+              ></path>
+              <div class="hover-div position-absolute end-0 bg-white p-2 w-100">
+                <p class="fsize-sm mb-1">Lorem</p>
+                <p class="fsize-sm mb-1">Lorem</p>
+                <p class="fsize-sm mb-1">Lorem</p>
+                <p class="fsize-sm mb-1">Lorem</p>
+                <p class="fsize-sm mb-1">Lorem</p>
+              </div>
+            </svg>
+          </span>
+          <span class="d-flex align-items-center gap-1 color-hover fw-medium">
+            Pages
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="ms-1"
+            >
+              <path
+                d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+              ></path>
+            </svg>
+          </span>
+          <span class="color-hover fw-medium">Blog</span>
+          <span class="color-hover fw-medium">About us</span>
+        </div>
+        <div class="right">
+          <span
+            class="d-flex align-items-center gap-1 fw-medium fsize-sm color-hover"
+          >
+            Recently viewed
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="ms-1"
+            >
+              <path
+                d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+              ></path>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero-section">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade z-0"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner text-black">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div
+            class="carousel-item active d-flex justify-content-end position-relative"
+            data-bs-interval="3000"
+          >
+            <img
+              src="images/slide1-demo3.png"
+              class="d-block img-fluid"
+              alt="..."
+            />
+            <div class="text-container position-absolute">
+              <p class="fs-6 fw-medium mb-1">Made in Italy</p>
+              <p class="text-capitalize fsize-lg fw-semibold furniture-title">
+                best seller sofa & chair Livingroom
+              </p>
+              <button
+                class="black-btn text-uppercase bg-transparent fsize-sm fw-semibold py-2 px-4 rounded border-black mt-2"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div
+            class="carousel-item d-flex justify-content-end position-relative"
+            data-bs-interval="3000"
+          >
+            <img
+              src="images/slide2-demo3.png"
+              class="d-block img-fluid"
+              alt="..."
+            />
+            <div class="text-container position-absolute">
+              <p class="fs-6 fw-medium mb-1">Made in Italy</p>
+              <p class="text-capitalize fsize-lg fw-semibold furniture-title">
+                full bed & unpholstered headboard
+              </p>
+              <button
+                class="black-btn text-uppercase bg-transparent fsize-sm fw-semibold py-2 px-4 rounded border-black mt-2"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div
+            class="carousel-item d-flex justify-content-end position-relative"
+            data-bs-interval="3000"
+          >
+            <img
+              src="images/slide3-demo3.png"
+              class="d-block img-fluid"
+              alt="..."
+            />
+            <div class="text-container position-absolute dining-set">
+              <p class="fs-6 fw-medium mb-1">Made in Italy</p>
+              <p class="text-capitalize fsize-lg fw-semibold furniture-title">
+                modern dining set for kitchen
+              </p>
+              <button
+                class="black-btn text-uppercase bg-transparent fsize-sm fw-semibold py-2 px-4 rounded border-black mt-2"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-section">
+      <div class="container-fluid justify-content-center d-flex">
+        <div class="row border-grey p-5 w-100">
+          <div class="col-3">
+            <div
+              class="d-flex gap-4 align-items-center position-relative divider-col"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="#999"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M254.07,106.79,208.53,53.73A16,16,0,0,0,196.26,48H32A16,16,0,0,0,16,64V176a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V112A8,8,0,0,0,254.07,106.79ZM230.59,104H176V64h20.26ZM104,104V64h56v40ZM88,64v40H32V64ZM80,200a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm112,0a16,16,0,1,1,16-16A16,16,0,0,1,192,200Zm31-24a32,32,0,0,0-62,0H111a32,32,0,0,0-62,0H32V120H240v56Z"
+                ></path>
+              </svg>
+              <div>
+                <span class="fw-semibold">Fast, Free Shipping</span>
+                <span class="d-block fsize-sm text-grey mt-1"
+                  >On order over $50</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div
+              class="d-flex gap-4 align-items-center position-relative divider-col"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="#999"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"
+                ></path>
+              </svg>
+              <div>
+                <span class="fw-semibold"> Next Day Delivery</span>
+                <span class="d-block fsize-sm mt-1 text-grey"
+                  >Free – spend over $99</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="d-flex gap-4 align-items-center position-relative divider-col"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="#999"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.73,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.27,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-11.55,39.29c-4.79,5-9.75,10.17-12.38,16.52-2.52,6.1-2.63,13.07-2.73,19.82-.1,7-.21,14.33-3.32,17.43s-10.39,3.22-17.43,3.32c-6.75.1-13.72.21-19.82,2.73-6.35,2.63-11.52,7.59-16.52,12.38S132,224,128,224s-9.15-4.92-14.11-9.69-10.17-9.75-16.52-12.38c-6.1-2.52-13.07-2.63-19.82-2.73-7-.1-14.33-.21-17.43-3.32s-3.22-10.39-3.32-17.43c-.1-6.75-.21-13.72-2.73-19.82-2.63-6.35-7.59-11.52-12.38-16.52S32,132,32,128s4.92-9.14,9.69-14.11,9.75-10.17,12.38-16.52c2.52-6.1,2.63-13.07,2.73-19.82.1-7,.21-14.33,3.32-17.43S70.51,56.9,77.55,56.8c6.75-.1,13.72-.21,19.82-2.73,6.35-2.63,11.52-7.59,16.52-12.38S124,32,128,32s9.15,4.92,14.11,9.69,10.17,9.75,16.52,12.38c6.1,2.52,13.07,2.63,19.82,2.73,7,.1,14.33.21,17.43,3.32s3.22,10.39,3.32,17.43c.1,6.75.21,13.72,2.73,19.82,2.63,6.35,7.59,11.52,12.38,16.52S224,124,224,128,219.08,137.14,214.31,142.11ZM120,96a24,24,0,1,0-24,24A24,24,0,0,0,120,96ZM88,96a8,8,0,1,1,8,8A8,8,0,0,1,88,96Zm72,40a24,24,0,1,0,24,24A24,24,0,0,0,160,136Zm0,32a8,8,0,1,1,8-8A8,8,0,0,1,160,168Zm13.66-74.34-80,80a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,11.32Z"
+                ></path>
+              </svg>
+              <div>
+                <span class="fw-semibold"> Low Price Guarantee</span>
+                <span class="d-block fsize-sm mt-1 text-grey"
+                  >We offer competitive prices</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="d-flex gap-4 align-items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="#999"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"
+                ></path>
+              </svg>
+              <div>
+                <span class="fw-semibold"> Quality Guarantee</span>
+                <span class="d-block fsize-sm mt-1 text-grey"
+                  >We Guarantee Our Products</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sales-section">
+      <div class="container-fluid p-5">
+        <div class="title d-flex justify-content-between">
+          <h2 class="fw-semibold text-center fs-3 text-black">
+            Don't miss this week's sales
+          </h2>
+          <a href="#" class="fsize-sm text-black text-decoration-underline"
+            >See All Products</a
+          >
+        </div>
+
+        <div class="row mt-3 rounded border-0 owl-carousel carousel-1">
+          <div class="col card position-relative rounded-0 border-end-0">
+            <img src="images/clock.jpg" class="card-img-top img-fluid" />
+
+            <span class="badge rounded-1 bg-orange position-absolute fw-medium"
+              >-33%</span
+            >
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+                <span
+                  class="text-grey text-decoration-line-through fsize-sm fw-medium"
+                  >$75</span
+                >
+              </div>
+              <div class="stars d-flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M239.18,97.26A16.38,16.38,0,0,0,224.92,86l-59-4.76L143.14,26.15a16.36,16.36,0,0,0-30.27,0L90.11,81.23,31.08,86a16.46,16.46,0,0,0-9.37,28.86l45,38.83L53,211.75a16.4,16.4,0,0,0,24.5,17.82L128,198.49l50.53,31.08A16.4,16.4,0,0,0,203,211.75l-13.76-58.07,45-38.83A16.43,16.43,0,0,0,239.18,97.26Zm-15.34,5.47-48.7,42a8,8,0,0,0-2.56,7.91l14.88,62.8a.37.37,0,0,1-.17.48c-.18.14-.23.11-.38,0l-54.72-33.65A8,8,0,0,0,128,181.1V32c.24,0,.27.08.35.26L153,91.86a8,8,0,0,0,6.75,4.92l63.91,5.16c.16,0,.25,0,.34.29S224,102.63,223.84,102.73Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col card position-relative rounded-0 border-end-0">
+            <img src="images/chair-1.jpg" class="card-img-top img-fluid" />
+
+            <span class="badge rounded-1 bg-orange position-absolute fw-medium"
+              >-20%</span
+            >
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="3"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                Studio Designs Home, Heather Studio Designs Chair
+              </a>
+              <div>
+                <div class="price d-flex align-items-center gap-2">
+                  <span class="fw-medium">$192</span>
+                  <span
+                    class="text-grey text-decoration-line-through fsize-sm fw-medium"
+                    >$239</span
+                  >
+                </div>
+                <div class="stars d-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M239.18,97.26A16.38,16.38,0,0,0,224.92,86l-59-4.76L143.14,26.15a16.36,16.36,0,0,0-30.27,0L90.11,81.23,31.08,86a16.46,16.46,0,0,0-9.37,28.86l45,38.83L53,211.75a16.4,16.4,0,0,0,24.5,17.82L128,198.49l50.53,31.08A16.4,16.4,0,0,0,203,211.75l-13.76-58.07,45-38.83A16.43,16.43,0,0,0,239.18,97.26Zm-15.34,5.47-48.7,42a8,8,0,0,0-2.56,7.91l14.88,62.8a.37.37,0,0,1-.17.48c-.18.14-.23.11-.38,0l-54.72-33.65A8,8,0,0,0,128,181.1V32c.24,0,.27.08.35.26L153,91.86a8,8,0,0,0,6.75,4.92l63.91,5.16c.16,0,.25,0,.34.29S224,102.63,223.84,102.73Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col card position-relative rounded-0 border-end-0">
+            <img src="images/table.jpg" class="card-img-top img-fluid" />
+
+            <span class="badge rounded-1 bg-orange position-absolute fw-medium"
+              >-48%</span
+            >
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                Mid Century Modern Round Dining Table in Oak
+              </a>
+              <div>
+                <div class="price d-flex align-items-center gap-2">
+                  <span class="fw-medium">$569</span>
+                  <span
+                    class="text-grey text-decoration-line-through fsize-sm fw-medium"
+                    >$1,099</span
+                  >
+                </div>
+                <div class="stars d-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M239.18,97.26A16.38,16.38,0,0,0,224.92,86l-59-4.76L143.14,26.15a16.36,16.36,0,0,0-30.27,0L90.11,81.23,31.08,86a16.46,16.46,0,0,0-9.37,28.86l45,38.83L53,211.75a16.4,16.4,0,0,0,24.5,17.82L128,198.49l50.53,31.08A16.4,16.4,0,0,0,203,211.75l-13.76-58.07,45-38.83A16.43,16.43,0,0,0,239.18,97.26Zm-15.34,5.47-48.7,42a8,8,0,0,0-2.56,7.91l14.88,62.8a.37.37,0,0,1-.17.48c-.18.14-.23.11-.38,0l-54.72-33.65A8,8,0,0,0,128,181.1V32c.24,0,.27.08.35.26L153,91.86a8,8,0,0,0,6.75,4.92l63.91,5.16c.16,0,.25,0,.34.29S224,102.63,223.84,102.73Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col card position-relative rounded-0 border-end-0">
+            <img
+              src="images/chair-2.jpg"
+              class="card-img-top img-fluid opacity-50"
+            />
+
+            <span
+              class="badge rounded-1 text-bg-secondary opacity-50 position-absolute fw-medium text-uppercase"
+              >sold out</span
+            >
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Read More"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                High seating comfort with built in armrest
+              </a>
+              <div>
+                <div class="price d-flex align-items-center gap-2">
+                  <span class="fw-medium">$1,465</span>
+                  <span
+                    class="text-grey text-decoration-line-through fsize-sm fw-medium"
+                    >$1,536</span
+                  >
+                </div>
+                <div class="stars d-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M239.18,97.26A16.38,16.38,0,0,0,224.92,86l-59-4.76L143.14,26.15a16.36,16.36,0,0,0-30.27,0L90.11,81.23,31.08,86a16.46,16.46,0,0,0-9.37,28.86l45,38.83L53,211.75a16.4,16.4,0,0,0,24.5,17.82L128,198.49l50.53,31.08A16.4,16.4,0,0,0,203,211.75l-13.76-58.07,45-38.83A16.43,16.43,0,0,0,239.18,97.26Zm-15.34,5.47-48.7,42a8,8,0,0,0-2.56,7.91l14.88,62.8a.37.37,0,0,1-.17.48c-.18.14-.23.11-.38,0l-54.72-33.65A8,8,0,0,0,128,181.1V32c.24,0,.27.08.35.26L153,91.86a8,8,0,0,0,6.75,4.92l63.91,5.16c.16,0,.25,0,.34.29S224,102.63,223.84,102.73Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col card position-relative rounded-0 border-end-0">
+            <img src="images/lamb.jpg" class="card-img-top img-fluid" />
+
+            <span class="badge rounded-1 bg-orange position-absolute fw-medium"
+              >-26%</span
+            >
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                Slate Table Lamp with Natural Slate Finish
+              </a>
+              <div>
+                <div class="price d-flex align-items-center gap-2">
+                  <span class="fw-medium">$138</span>
+                  <span
+                    class="text-grey text-decoration-line-through fsize-sm fw-medium"
+                    >$188</span
+                  >
+                </div>
+                <div class="stars d-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M239.18,97.26A16.38,16.38,0,0,0,224.92,86l-59-4.76L143.14,26.15a16.36,16.36,0,0,0-30.27,0L90.11,81.23,31.08,86a16.46,16.46,0,0,0-9.37,28.86l45,38.83L53,211.75a16.4,16.4,0,0,0,24.5,17.82L128,198.49l50.53,31.08A16.4,16.4,0,0,0,203,211.75l-13.76-58.07,45-38.83A16.43,16.43,0,0,0,239.18,97.26Zm-15.34,5.47-48.7,42a8,8,0,0,0-2.56,7.91l14.88,62.8a.37.37,0,0,1-.17.48c-.18.14-.23.11-.38,0l-54.72-33.65A8,8,0,0,0,128,181.1V32c.24,0,.27.08.35.26L153,91.86a8,8,0,0,0,6.75,4.92l63.91,5.16c.16,0,.25,0,.34.29S224,102.63,223.84,102.73Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banners-section">
+      <div class="container-fluid p-5">
+        <div class="row overflow-hidden">
+          <div class="col-6 p-0 position-relative banner overflow-hidden cozy">
+            <img
+              src="images/banner1-demo3.jpg"
+              class="object-fit-cover h-100 img-fluid"
+            />
+            <div class="banner-text text-white position-absolute">
+              <p class="fsize-sm fw-semibold mb-1 text-uppercase">
+                design by cozy
+              </p>
+              <p class="text-capitalize fs-1 fw-semibold my-1">
+                modern mini couch
+              </p>
+              <p class="fsize-sm fw-medium mb-4 text-capitalize">
+                51 inches loveseat sofa
+              </p>
+              <button
+                class="text-uppercase white-btn bg-transparent fsize-sm fw-semibold py-2 px-4 rounded mt-2 text-white"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row overflow-hidden">
+              <div
+                class="banner col-12 p-0 overflow-hidden position-relative banner right-banners text-black"
+              >
+                <img src="images/banner2-mobile-demo3.jpg" class="img-fluid" />
+                <div class="banner-text position-absolute">
+                  <p class="text-capitalize fs-2 fw-semibold my-1 banner-title">
+                    Plant Pots Only
+                    <span class="text-decoration-underline">$14.00</span>
+                  </p>
+                  <p class="fsize-sm mb-2">Don't miss the opportunity...</p>
+                  <button
+                    class="black-btn text-uppercase bg-transparent fsize-sm fw-semibold py-2 px-4 rounded mt-2"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+                <div
+                  class="discount text-white bg-orange fw-semibold fs-5 rounded-circle text-center position-absolute"
+                >
+                  <span>-30%</span>
+                </div>
+              </div>
+              <div
+                class="banner col-12 p-0 overflow-hidden position-relative banner right-banners text-white"
+              >
+                <img src="images/banner3-mobile-demo3.jpg" class="img-fluid" />
+                <div class="banner-text position-absolute">
+                  <p class="text-capitalize fs-2 fw-semibold my-1 banner-title">
+                    Romina table Lamp
+                  </p>
+                  <p class="fsize-sm mb-2">Creates gentle elegance</p>
+                  <button
+                    class="white-btn text-uppercase bg-transparent fsize-sm text-white fw-semibold py-2 px-4 rounded mt-2"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cyber-section">
+      <div class="container-fluid px-5 pt-5">
+        <h2 class="text-capitalize text-center fw-semibold fs-3 text-black">
+          cyber weekend
+        </h2>
+        <div class="row m-auto w-75 mt-4">
+          <div class="col d-flex justify-content-center p-0">
+            <div
+              class="cyber-discount bg-white bg-change fs-3 fw-semibold text-center rounded-circle text-uppercase d-flex justify-content-center align-items-center"
+            >
+              <span class="w-75"> +10% off</span>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center p-0">
+            <div
+              class="cyber-discount bg-white bg-change fs-3 fw-semibold text-center rounded-circle text-uppercase d-flex justify-content-center align-items-center"
+            >
+              <span> +20% off</span>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center p-0">
+            <div
+              class="cyber-discount bg-change bg-white fs-3 fw-semibold text-center rounded-circle text-uppercase d-flex justify-content-center align-items-center"
+            >
+              <span> +30% off</span>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center p-0">
+            <div
+              class="cyber-discount bg-change bg-white fs-3 fw-semibold text-center rounded-circle text-uppercase d-flex justify-content-center align-items-center"
+            >
+              <span> +40% off</span>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center p-0">
+            <div
+              class="bg-orange text-white cyber-discount fs-3 fw-semibold text-center rounded-circle text-uppercase d-flex justify-content-center align-items-center"
+            >
+              <span> +50% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="sale text-uppercase text-center">sale off</div>
+      </div>
+    </section>
+
+    <section id="new-arrival-section">
+      <div class="container-fluid px-5">
+        <h2 class="text-capitalize text-center fw-semibold fs-3 text-black">
+          new arrivals
+        </h2>
+        <div class="row mt-4 border border-1 rounded rounded-bottom-0">
+          <div class="col card position-relative border-0">
+            <img src="images/clock.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/chair-1.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/table.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/chair-2.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/lamb.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row border border-top-0 rounded rounded-top-0">
+          <div class="col card position-relative border-0">
+            <img src="images/clock.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/chair-1.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/table.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/chair-2.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col card position-relative border-0 border-start rounded-0"
+          >
+            <img src="images/lamb.jpg" class="card-img-top img-fluid" />
+
+            <div class="icons position-absolute d-flex flex-column gap-2">
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Wishlist"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Compare"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M213.66,181.66l-32,32a8,8,0,0,1-11.32-11.32L188.69,184H48a8,8,0,0,1,0-16H188.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,213.66,181.66Zm-139.32-64a8,8,0,0,0,11.32-11.32L67.31,88H208a8,8,0,0,0,0-16H67.31L85.66,53.66A8,8,0,0,0,74.34,42.34l-32,32a8,8,0,0,0,0,11.32Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Quick View"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="btn rounded-1 px-2 py-1 shadow-sm"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Add to cart"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div
+              class="card-body text-black justify-content-between d-flex flex-column"
+            >
+              <a
+                href="#"
+                class="card-title text-capitalize fsize-sm color-hover"
+              >
+                14-inch fashion simplicity quality wall clock, home decor
+              </a>
+              <div class="price d-flex align-items-center gap-2">
+                <span class="fw-medium">$50</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="fsize-sm text-black d-block text-center my-4 text-decoration-underline"
+          >See All Products</a
+        >
+      </div>
+    </section>
+
+    <section id="pay-section">
+      <div class="container-fluid p-5">
+        <div
+          class="bg-success-subtle px-5 rounded d-flex justify-content-between align-items-center position-relative"
+        >
+          <div class="text-black">
+            <p class="fs-3 fw-semibold">
+              Earn Cash Back For The Things You Buy Every Where
+            </p>
+            <span class="fsize-sm"
+              >Application via Merto.
+              <a href="#" class="text-decoration-underline"
+                >Terms & Conditions</a
+              ></span
+            >
+          </div>
+          <button
+            class="green-btn text-uppercase bg-transparent fsize-sm text-white fw-semibold py-2 px-4 rounded text-nowrap"
+          >
+            view more
+          </button>
+          <img src="images/payments-2-1.png" />
+        </div>
+      </div>
+    </section>
+
+    <section id="shop-section">
+      <div class="container-fluid p-5">
+        <h2 class="text-capitalize text-center fw-semibold fs-3 text-black">
+          shop by department
+        </h2>
+
+        <div class="row gx-5 mt-4 m-auto">
+          <div class="col-3 justify-content-center">
+            <div class="align-items-center d-flex flex-column">
+              <div class="img-container overflow-hidden rounded-circle">
+                <img src="images/image-box-1.jpg" class="img-fluid" />
+              </div>
+              <p class="fw-semibold mt-4">Coffee Table from $20</p>
+              <a
+                href="#"
+                class="fsize-sm fw-semibold color-hover underline-hover d-flex align-items-center"
+              >
+                Shop now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="ms-1"
+                >
+                  <path
+                    d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+          <div class="col-3 justify-content-center">
+            <div class="align-items-center d-flex flex-column">
+              <div class="img-container overflow-hidden rounded-circle">
+                <img src="images/image-box-2.jpg" class="img-fluid" />
+              </div>
+              <p class="fw-semibold mt-4">Sectionals from $300</p>
+              <a
+                href="#"
+                class="fsize-sm fw-semibold color-hover underline-hover d-flex align-items-center"
+              >
+                Shop now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="ms-1"
+                >
+                  <path
+                    d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+          <div class="col-3 justify-content-center">
+            <div class="align-items-center d-flex flex-column">
+              <div class="img-container overflow-hidden rounded-circle">
+                <img src="images/image-box-3.jpg" class="img-fluid" />
+              </div>
+              <p class="fw-semibold mt-4">Flower Vase from $5</p>
+              <a
+                href="#"
+                class="fsize-sm fw-semibold color-hover underline-hover d-flex align-items-center"
+              >
+                Shop now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="ms-1"
+                >
+                  <path
+                    d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+          <div class="col-3 justify-content-center">
+            <div class="align-items-center d-flex flex-column">
+              <div class="img-container overflow-hidden rounded-circle">
+                <img src="images/image-box-4.jpg" class="img-fluid" />
+              </div>
+              <p class="fw-semibold mt-4">Headboard Sale Off</p>
+              <a
+                href="#"
+                class="fsize-sm fw-semibold color-hover underline-hover d-flex align-items-center"
+              >
+                Shop now
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="ms-1"
+                >
+                  <path
+                    d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands-section">
+      <div class="container-fluid px-5">
+        <hr class="my-4" />
+        <div class="row my-5 owl-carousel carousel-2">
+          <div class="col">
+            <img src="images/furniture-brand-1.jpg" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="images/furniture-brand-2-200x80.jpg" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="images/furniture-brand-3.jpg" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="images/furniture-brand-4.jpg" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="images/furniture-brand-5.jpg" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="images/furniture-brand-6.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-light">
+      <div class="container-fluid pb-3 pt-5 px-5 text-black">
+        <h2 class="text-center fw-semibold fs-3 text-black">
+          Join our newsletter
+        </h2>
+        <p class="text-center fsize-sm my-3">
+          Get recommendations, tips, updates, promotions and more.
+        </p>
+        <div
+          class="m-auto mb-5 bg-white w-50 form-container rounded d-flex justify-content-center align-items-center pe-3 mb-4 border-grey"
+        >
+          <form class="w-100">
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              class="bg-white border-0 ps-3 py-2 w-100"
+            />
+          </form>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="#000"
+            viewBox="0 0 256 256"
+            class="color-hover"
+          >
+            <path
+              d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="row mt-4">
+          <div class="col-3">
+            <div>
+              <img
+                src="images/logo-home.png"
+                alt="Merto Logo"
+                class="logo-size mb-4"
+              />
+              <span
+                class="fsize-sm d-flex gap-2 w-75 align-items-start fw-medium mb-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="34"
+                  height="34"
+                  fill="#000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"
+                  ></path>
+                </svg>
+                <span class="mt-1"
+                  >29 SE 2nd Ave, Miami Florida 33131, United States</span
+                >
+              </span>
+
+              <span
+                class="fsize-sm d-flex gap-2 w-75 align-items-start fw-medium mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"
+                  ></path>
+                </svg>
+                <span>info@example.com</span>
+              </span>
+
+              <span class="fs-5 fw-semibold color-hover">(+92) 3942 7879</span>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="row">
+              <div class="col-6">
+                <h4 class="text-uppercase fsize-default mb-4 fw-semibold">
+                  shop more
+                </h4>
+                <ul class="list-unstyled">
+                  <li class="fsize-sm mb-3 color-hover">New Arrival</li>
+                  <li class="fsize-sm mb-3 color-hover">Sale off</li>
+                  <li class="fsize-sm mb-3 color-hover">Living Room</li>
+                  <li class="fsize-sm mb-3 color-hover">Bedroom</li>
+                  <li class="fsize-sm color-hover">Dinner Room</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h4
+                  class="mb-4 text-uppercase fsize-default mb-4 fw-semibold opacity-0"
+                >
+                  shop more
+                </h4>
+                <ul class="list-unstyled">
+                  <li class="fsize-sm mb-3 color-hover">Bathroom</li>
+                  <li class="fsize-sm mb-3 color-hover">Kitchen Room</li>
+                  <li class="fsize-sm mb-3 color-hover">Home Office</li>
+                  <li class="fsize-sm mb-3 color-hover">Home Decoration</li>
+                  <li class="fsize-sm color-hover">Outdoor</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div>
+              <h4 class="text-uppercase fsize-default mb-4 fw-semibold">
+                shopping
+              </h4>
+              <ul class="list-unstyled">
+                <li class="fsize-sm mb-3 color-hover">Wishlist</li>
+                <li class="fsize-sm mb-3 color-hover">Shop By Brand</li>
+                <li class="fsize-sm mb-3 color-hover">Offers</li>
+                <li class="fsize-sm mb-3 color-hover">Track Order</li>
+                <li class="fsize-sm color-hover">Size Guide</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div>
+              <h4 class="text-uppercase fsize-default mb-4 fw-semibold">
+                information
+              </h4>
+              <ul class="list-unstyled">
+                <li class="fsize-sm mb-3 color-hover">Track Order</li>
+                <li class="fsize-sm mb-3 color-hover">Shipping & Returns</li>
+                <li class="fsize-sm mb-3 color-hover">About us</li>
+                <li class="fsize-sm mb-3 color-hover">Help</li>
+                <li class="fsize-sm color-hover">Gift Cards</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div>
+              <h4 class="text-uppercase fsize-default mb-4 fw-semibold">
+                account
+              </h4>
+              <ul class="list-unstyled">
+                <li class="fsize-sm mb-3 color-hover">Cart</li>
+                <li class="fsize-sm mb-3 color-hover">My account</li>
+                <li class="fsize-sm mb-3 color-hover">My orders</li>
+                <li class="fsize-sm mb-3 color-hover">Wishlist</li>
+                <li class="fsize-sm color-hover">Affiliate Program</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <p class="fsize-sm text-grey">
+            Copyright © Merto. All Rights Reserved
+          </p>
+          <ul
+            class="social-media-links list-unstyled d-flex gap-3 align-items-center"
+          >
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"
+                ></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#000"
+                viewBox="0 0 256 256"
+                class="color-hover"
+              >
+                <path
+                  d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                ></path>
+              </svg>
+            </li>
+          </ul>
+          <img
+            src="images/payment-icons-2.png"
+            alt="Payment Icons"
+            class="w-25"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#header"
+      id="upArrow"
+      class="bg-black p-2 rounded position-fixed z-2"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="18"
+        height="18"
+        fill="#fff"
+        viewBox="0 0 256 256"
+      >
+        <path
+          d="M205.66,117.66a8,8,0,0,1-11.32,0L136,59.31V216a8,8,0,0,1-16,0V59.31L61.66,117.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,117.66Z"
+        ></path>
+      </svg>
+    </a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

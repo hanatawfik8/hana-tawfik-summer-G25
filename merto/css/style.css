@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --placeholder-color: #999;
+  --hover-color: #a3381c;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s ease-in all;
+}
+
+.dropdown::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 25px;
+  background-color: var(--placeholder-color);
+  top: 25%;
+  right: 0;
+}
+
+.bg-light {
+  background-color: #f7f7f7;
+}
+
+.white-btn {
+  border: 1px solid white;
+  &:hover {
+    background-color: white !important;
+    color: black !important;
+  }
+}
+
+.black-btn {
+  border: 1px solid black;
+  &:hover {
+    background-color: black !important;
+    color: white;
+  }
+}
+
+.green-btn {
+  background-color: #26753c !important ;
+  border: 1px solid #26753c;
+  &:hover {
+    background-color: transparent !important;
+    color: #26753c !important;
+  }
+}
+
+.bg-orange {
+  background-color: var(--hover-color);
+}
+
+.text-orange {
+  color: var(--hover-color);
+}
+
+.color-hover:hover,
+.color-hover:hover * {
+  color: var(--hover-color);
+  fill: var(--hover-color);
+  cursor: pointer;
+}
+
+.divider {
+  height: 15px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.295);
+}
+
+#hero-section {
+  height: 520px;
+  background-color: #ddcfb8;
+}
+
+.carousel-item {
+  background-color: #ddcfb8;
+}
+
+.carousel .text-container {
+  top: 22%;
+  right: 6%;
+}
+
+.carousel .dining-set {
+  right: 15%;
+}
+
+#services-section .col-3:hover svg {
+  fill: black;
+}
+
+.furniture-title {
+  width: 40%;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: black;
+}
+
+.divider-col::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background-color: #99999938;
+  top: 2%;
+  right: 4%;
+}
+
+.badge {
+  width: fit-content !important;
+  top: 4%;
+  left: 6%;
+  padding: 7px;
+}
+
+.card:hover {
+  cursor: pointer;
+  .icons {
+    top: 4%;
+    opacity: 1;
+  }
+}
+
+.icons {
+  opacity: 0;
+  top: 6%;
+  right: 6%;
+}
+
+.icons button {
+  background-color: #f7f7f7;
+}
+
+.icons button:hover {
+  background-color: black;
+  opacity: 0.9;
+  svg {
+    fill: #f7f7f7;
+  }
+}
+
+.tooltip-inner {
+  font-size: 12px !important;
+  padding: 2px 30px !important;
+  border-radius: 3px !important;
+}
+
+.banner:hover {
+  img {
+    transform: scale(1.1);
+  }
+}
+
+.cozy .banner-text {
+  top: 10%;
+  left: 10%;
+}
+
+.right-banners .banner-text {
+  top: 20%;
+  left: 10%;
+  .banner-title {
+    width: 65%;
+  }
+}
+
+.discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  right: 13%;
+  top: 33%;
+}
+
+.cyber-discount {
+  border: 1px solid #a3381c;
+  color: var(--hover-color);
+  width: 135px;
+  height: 135px;
+  position: relative;
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+    border-color: transparent;
+    transform: translateY(-5px);
+  }
+  &.bg-change:hover {
+    background-color: #f6ebe8 !important;
+  }
+}
+
+.sale {
+  color: white;
+  text-shadow: 0px 0px 2px #a3371ca9;
+  font-size: 150px;
+  font-weight: 800;
+  transform: translateY(-80px);
+
+  &:hover {
+    transform: translateY(-70px);
+  }
+}
+
+#shop-section .img-container:hover {
+  cursor: pointer;
+  animation: shake 0.3s ease-in 2 alternate-reverse;
+}
+
+.owl-nav {
+  display: flex !important;
+  justify-content: space-between;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  opacity: 0;
+}
+
+.carousel-1 .owl-nav button.owl-prev,
+.carousel-1 .owl-nav button.owl-next {
+  padding: 10px 2px !important;
+  background-color: white !important;
+  border-radius: 3px;
+  margin: 0 !important;
+
+  &:hover {
+    background-color: black !important;
+    svg {
+      fill: white !important;
+    }
+  }
+}
+
+.carousel-1:hover {
+  .owl-nav {
+    opacity: 1;
+  }
+}
+
+.underline-hover {
+  position: relative;
+  width: fit-content;
+}
+
+.underline-hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transition: 0.2s ease-in all;
+}
+
+.underline-hover:hover::after {
+  background-color: var(--hover-color);
+  animation: underline-animation 0.3s ease-in-out 2 alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes underline-animation {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+.products:hover .hover-div {
+  display: block;
+}
+
+.hover-div {
+  top: 185%;
+  z-index: 5;
+  display: none;
+}

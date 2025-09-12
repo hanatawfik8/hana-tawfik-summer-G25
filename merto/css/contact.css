@@ -1,30 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 :root {
   --placeholder-color: #999;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  --hover-color: #de1010;
 }
 
 /* Global */
 
-.logo-size {
-  width: 126px;
+.bg-charcoal {
+  background-color: #1b1f22;
 }
 
-.fsize-sm {
-  font-size: 13px;
+.border-grey {
+  border: 1px solid #99999960;
 }
 
 /*  */
 
 /* Custom */
 
-nav .dropdown-menu {
-  height: 90vh;
+textarea {
+  resize: none;
+}
+
+.black-btn {
+  background-color: black;
+  border: 0;
+  color: white;
+}
+
+.bg-red {
+  background-color: var(--hover-color);
+}
+
+.color-hover:hover,
+.color-hover:hover * {
+  color: var(--hover-color);
+  fill: var(--hover-color);
+  cursor: pointer;
+}
+
+.bg-color-hover:hover {
+  background-color: var(--hover-color);
+}
+
+.underline-hover {
+  position: relative;
+  width: fit-content;
+}
+
+.underline-hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transition: 0.2s ease-in all;
+}
+
+.underline-hover:hover::after {
+  background-color: var(--hover-color);
+  animation: underline-animation 0.3s ease-in-out 2 alternate;
+}
+
+.card-hover:hover img {
+  filter: contrast(0.8);
 }
 
 .dropdown::after {
@@ -33,14 +73,15 @@ nav .dropdown-menu {
   width: 1px;
   height: 25px;
   background-color: var(--placeholder-color);
-  top: 15%;
+  top: 20%;
+  right: 0;
 }
 
-.search-container input {
-  outline: 0;
-}
-
-.search-container input::placeholder {
-  color: var(--placeholder-color);
-  font-size: 13px;
+@keyframes underline-animation {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
 }

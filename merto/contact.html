@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/32b721850a.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,12 +11,13 @@
     />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" href="images/favicon.png" />
     <title>Contact Us - Merto</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg nav-js bg-white shadow-bottom">
       <div class="container-fluid px-5 d-flex justify-content-between py-2">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="index.html"
           ><img src="images/logo.png" alt="Merto Logo" class="logo-size"
         /></a>
         <button
@@ -198,7 +195,7 @@
           <div
             class="user-preferences d-flex fsize-sm align-items-center gap-3"
           >
-            <span class="d-flex align-items-center gap-1">
+            <span class="d-flex align-items-center gap-1 color-hover">
               <img src="images/english.png" alt="English" /> English
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,13 +203,14 @@
                 height="12"
                 fill="#000000"
                 viewBox="0 0 256 256"
+                class="color-hover"
               >
                 <path
                   d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"
                 ></path>
               </svg>
             </span>
-            <span class="d-flex align-items-center gap-1">
+            <span class="d-flex align-items-center gap-1 color-hover">
               USD
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -226,7 +224,9 @@
                 ></path>
               </svg>
             </span>
-            <span class="d-flex align-items-center gap-1 fw-semibold">
+            <span
+              class="d-flex align-items-center gap-1 fw-semibold color-hover"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -240,7 +240,7 @@
               </svg>
               Account
             </span>
-            <span class="position-relative">
+            <span class="position-relative color-hover">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -252,8 +252,12 @@
                   d="M178,40c-20.65,0-38.73,8.88-50,23.89C116.73,48.88,98.65,40,78,40a62.07,62.07,0,0,0-62,62c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,228.66,240,172,240,102A62.07,62.07,0,0,0,178,40ZM128,214.8C109.74,204.16,32,155.69,32,102A46.06,46.06,0,0,1,78,56c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,155.61,146.24,204.15,128,214.8Z"
                 ></path>
               </svg>
+              <span
+                class="number position-absolute bg-red text-white rounded-circle fsize-xs fw-semibold"
+                >0</span
+              >
             </span>
-            <span>
+            <span class="color-hover position-relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -265,6 +269,10 @@
                   d="M104,216a16,16,0,1,1-16-16A16,16,0,0,1,104,216Zm88-16a16,16,0,1,0,16,16A16,16,0,0,0,192,200ZM239.71,74.14l-25.64,92.28A24.06,24.06,0,0,1,191,184H92.16A24.06,24.06,0,0,1,69,166.42L33.92,40H16a8,8,0,0,1,0-16H40a8,8,0,0,1,7.71,5.86L57.19,64H232a8,8,0,0,1,7.71,10.14ZM221.47,80H61.64l22.81,82.14A8,8,0,0,0,92.16,168H191a8,8,0,0,0,7.71-5.86Z"
                 ></path>
               </svg>
+              <span
+                class="number position-absolute bg-red text-white rounded-circle fsize-xs fw-semibold"
+                >0</span
+              >
             </span>
           </div>
         </div>
@@ -274,7 +282,7 @@
     <section id="categories-section" class="d-flex align-items-center">
       <div class="shop-by-categries border w-25 d-flex justify-content-center">
         <button
-          class="btn border-0 fsize-sm fw-semibold text-uppercase d-flex align-items-center gap-2 py-3 px-5"
+          class="btn border-0 fsize-sm fw-semibold text-uppercase d-flex align-items-center gap-2 py-3 px-5 color-hover"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasWithBothOptions"
@@ -300,21 +308,181 @@
           id="offcanvasWithBothOptions"
           aria-labelledby="offcanvasWithBothOptionsLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-              Backdrop with scrolling
+          <div class="offcanvas-header p-0">
+            <h5
+              class="offcanvas-title fsize-sm fw-semibold text-uppercase d-flex align-items-center gap-2 p-3 text-white bg-black w-100"
+              id="offcanvasWithBothOptionsLabel"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="#fff"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M228,128a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,128ZM40,76H216a12,12,0,0,0,0-24H40a12,12,0,0,0,0,24ZM216,180H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Z"
+                ></path>
+              </svg>
+              shop by categories
             </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
           </div>
-          <div class="offcanvas-body">
-            <p>
-              Try scrolling the rest of the page to see this option in action.
-            </p>
+          <div class="offcanvas-body p-0">
+            <ul class="list-unstyled">
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M240,106.17V72a16,16,0,0,0-16-16H32A16,16,0,0,0,16,72v34.17A16,16,0,0,0,8,120v48a16,16,0,0,0,16,16h8v16a8,8,0,0,0,16,0V184H208v16a8,8,0,0,0,16,0V184h8a16,16,0,0,0,16-16V120A16,16,0,0,0,240,106.17ZM224,104h-8a16,16,0,0,0-16,16v16H136V72h88ZM120,72v64H56V120a16,16,0,0,0-16-16H32V72Zm112,96H24V120H40v24a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V120h16Z"
+                  ></path>
+                </svg>
+                Living Room
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M216,72H32V48a8,8,0,0,0-16,0V208a8,8,0,0,0,16,0V176H240v32a8,8,0,0,0,16,0V112A40,40,0,0,0,216,72ZM32,88h72v72H32Zm88,72V88h96a24,24,0,0,1,24,24v48Z"
+                  ></path>
+                </svg>
+                Bedroom
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M224,112H32a8,8,0,0,0-8,8,104.35,104.35,0,0,0,56,92.28V216a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16v-3.72A104.35,104.35,0,0,0,232,120,8,8,0,0,0,224,112Zm-59.34,88a8,8,0,0,0-4.66,7.27V216H96v-8.71A8,8,0,0,0,91.34,200a88.29,88.29,0,0,1-51-72H215.63A88.29,88.29,0,0,1,164.66,200ZM81.77,55c5.35-6.66,6.67-11.16,6.12-13.14-.42-1.49-2.41-2.26-2.43-2.26A8,8,0,0,1,88,24a8.11,8.11,0,0,1,2.38.36c1,.31,9.91,3.33,12.79,12.76,2.46,8.07-.55,17.45-8.94,27.89-5.35,6.66-6.67,11.16-6.12,13.14.42,1.49,2.37,2.24,2.39,2.25A8,8,0,0,1,88,96a8.11,8.11,0,0,1-2.38-.36c-1-.31-9.91-3.33-12.79-12.76C70.37,74.81,73.38,65.43,81.77,55Zm40,0c5.35-6.66,6.67-11.16,6.12-13.14-.42-1.49-2.41-2.26-2.43-2.26A8,8,0,0,1,128,24a8.11,8.11,0,0,1,2.38.36c1,.31,9.91,3.33,12.79,12.76,2.46,8.07-.55,17.45-8.94,27.89-5.35,6.66-6.67,11.16-6.12,13.14.42,1.49,2.37,2.24,2.39,2.25A8,8,0,0,1,128,96a8.11,8.11,0,0,1-2.38-.36c-1-.31-9.91-3.33-12.79-12.76C110.37,74.81,113.38,65.43,121.77,55Zm40,0c5.35-6.66,6.67-11.16,6.12-13.14-.42-1.49-2.41-2.26-2.43-2.26A8,8,0,0,1,168,24a8.11,8.11,0,0,1,2.38.36c1,.31,9.91,3.33,12.79,12.76,2.46,8.07-.55,17.45-8.94,27.89-5.35,6.66-6.67,11.16-6.12,13.14.42,1.49,2.37,2.24,2.39,2.25A8,8,0,0,1,168,96a8.11,8.11,0,0,1-2.38-.36c-1-.31-9.91-3.33-12.79-12.76C150.37,74.81,153.38,65.43,161.77,55Z"
+                  ></path>
+                </svg>
+                Dining Room
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M240,96H208a8,8,0,0,0-8-8H136a8,8,0,0,0-8,8H64V52A12,12,0,0,1,76,40a12.44,12.44,0,0,1,12.16,9.59,8,8,0,0,0,15.68-3.18A28.32,28.32,0,0,0,76,24,28,28,0,0,0,48,52V96H16a8,8,0,0,0-8,8v40a56.06,56.06,0,0,0,56,56v16a8,8,0,0,0,16,0V200h96v16a8,8,0,0,0,16,0V200a56.06,56.06,0,0,0,56-56V104A8,8,0,0,0,240,96Zm-48,8v32H144V104Zm40,40a40,40,0,0,1-40,40H64a40,40,0,0,1-40-40V112H128v32a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V112h24Z"
+                  ></path>
+                </svg>
+                Bathroom
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M72,88V40a8,8,0,0,1,16,0V88a8,8,0,0,1-16,0ZM216,40V224a8,8,0,0,1-16,0V176H152a8,8,0,0,1-8-8,268.75,268.75,0,0,1,7.22-56.88c9.78-40.49,28.32-67.63,53.63-78.47A8,8,0,0,1,216,40ZM200,53.9c-32.17,24.57-38.47,84.42-39.7,106.1H200ZM119.89,38.69a8,8,0,1,0-15.78,2.63L112,88.63a32,32,0,0,1-64,0l7.88-47.31a8,8,0,1,0-15.78-2.63l-8,48A8.17,8.17,0,0,0,32,88a48.07,48.07,0,0,0,40,47.32V224a8,8,0,0,0,16,0V135.32A48.07,48.07,0,0,0,128,88a8.17,8.17,0,0,0-.11-1.31Z"
+                  ></path>
+                </svg>
+                Kitchen Room
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M248,64H8A8,8,0,0,0,8,80h8V192a8,8,0,0,0,16,0V144H224v48a8,8,0,0,0,16,0V80h8a8,8,0,0,0,0-16ZM32,80h88v48H32Zm192,48H136V80h88ZM96,104a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H88A8,8,0,0,1,96,104Zm64,0a8,8,0,0,1,8-8h24a8,8,0,0,1,0,16H168A8,8,0,0,1,160,104Z"
+                  ></path>
+                </svg>
+                Home Office
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M247.35,148.85l-48-112A8,8,0,0,0,192,32H64a8,8,0,0,0-7.35,4.85l-48,112A8,8,0,0,0,16,160H120v48H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V160h56v32a8,8,0,0,0,16,0V160h32a8,8,0,0,0,7.35-11.15ZM28.13,144,69.28,48H186.72l41.15,96Z"
+                  ></path>
+                </svg>
+                Home Decoration
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M232,192H200V168h24a8,8,0,0,0,7.76-9.94l-32-128a8,8,0,0,0-15.52,0l-32,128A8,8,0,0,0,160,168h24v24H120V176h8a8,8,0,0,0,0-16h-8V144h8a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16h8v16H40a8,8,0,0,0,0,16h8v16H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM192,65l21.75,87h-43.5ZM64,144h40v16H64Zm0,32h40v16H64Zm52-80A28,28,0,1,0,88,68,28,28,0,0,0,116,96Zm0-40a12,12,0,1,1-12,12A12,12,0,0,1,116,56Z"
+                  ></path>
+                </svg>
+                Outdoor
+              </li>
+              <li
+                class="fsize-sm fw-medium d-flex align-items-center py-3 px-4 bg-white border-bottom rounded-bottom color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                  class="me-3"
+                >
+                  <path
+                    d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.73,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.27,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-11.55,39.29c-4.79,5-9.75,10.17-12.38,16.52-2.52,6.1-2.63,13.07-2.73,19.82-.1,7-.21,14.33-3.32,17.43s-10.39,3.22-17.43,3.32c-6.75.1-13.72.21-19.82,2.73-6.35,2.63-11.52,7.59-16.52,12.38S132,224,128,224s-9.15-4.92-14.11-9.69-10.17-9.75-16.52-12.38c-6.1-2.52-13.07-2.63-19.82-2.73-7-.1-14.33-.21-17.43-3.32s-3.22-10.39-3.32-17.43c-.1-6.75-.21-13.72-2.73-19.82-2.63-6.35-7.59-11.52-12.38-16.52S32,132,32,128s4.92-9.14,9.69-14.11,9.75-10.17,12.38-16.52c2.52-6.1,2.63-13.07,2.73-19.82.1-7,.21-14.33,3.32-17.43S70.51,56.9,77.55,56.8c6.75-.1,13.72-.21,19.82-2.73,6.35-2.63,11.52-7.59,16.52-12.38S124,32,128,32s9.15,4.92,14.11,9.69,10.17,9.75,16.52,12.38c6.1,2.52,13.07,2.63,19.82,2.73,7,.1,14.33.21,17.43,3.32s3.22,10.39,3.32,17.43c.1,6.75.21,13.72,2.73,19.82,2.63,6.35,7.59,11.52,12.38,16.52S224,124,224,128,219.08,137.14,214.31,142.11ZM120,96a24,24,0,1,0-24,24A24,24,0,0,0,120,96ZM88,96a8,8,0,1,1,8,8A8,8,0,0,1,88,96Zm72,40a24,24,0,1,0,24,24A24,24,0,0,0,160,136Zm0,32a8,8,0,1,1,8-8A8,8,0,0,1,160,168Zm13.66-74.34-80,80a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,11.32Z"
+                  ></path>
+                </svg>
+                Sale Off
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -322,7 +490,7 @@
         class="rest-of-links fsize-sm fw-medium d-flex align-items-center justify-content-between px-4 border py-3 w-75"
       >
         <div class="left d-flex align-items-center gap-4">
-          <span class="d-flex align-items-center gap-1">
+          <span class="d-flex align-items-center gap-1 color-hover">
             Homepages
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -337,7 +505,7 @@
               ></path>
             </svg>
           </span>
-          <span class="d-flex align-items-center gap-1">
+          <span class="d-flex align-items-center gap-1 color-hover">
             Categories
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -352,7 +520,7 @@
               ></path>
             </svg>
           </span>
-          <span class="d-flex align-items-center gap-1">
+          <span class="d-flex align-items-center gap-1 color-hover">
             Products
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -367,7 +535,7 @@
               ></path>
             </svg>
           </span>
-          <span class="d-flex align-items-center gap-1">
+          <span class="d-flex align-items-center gap-1 color-hover">
             Pages
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -382,9 +550,9 @@
               ></path>
             </svg>
           </span>
-          <span>About us</span>
-          <span>Blog</span>
-          <span class="d-flex align-items-center gap-1">
+          <span class="color-hover">About us</span>
+          <span class="color-hover">Blog</span>
+          <span class="d-flex align-items-center gap-1 color-hover">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="18"
@@ -399,7 +567,7 @@
             Best Discount
           </span>
         </div>
-        <span class="d-flex align-items-center gap-1">
+        <span class="d-flex align-items-center gap-1 color-hover">
           Recently viewed
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -418,13 +586,639 @@
     </section>
 
     <section id="contact-section">
-      <div class="container"></div>
+      <div class="container py-5 text-black">
+        <h1 class="fw-semibold fsize-lg text-center">Contact us</h1>
+        <p
+          class="fsize-sm text-body-tertiary fw-medium w-25 text-center m-auto mt-2"
+        >
+          34 Main Street, Los Angeles 9021 United States
+        </p>
+        <div class="row mt-4 w-75 m-auto">
+          <div class="col-3 d-flex justify-content-center">
+            <div class="d-flex flex-column gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M144.27,45.93a8,8,0,0,1,9.8-5.66,86.22,86.22,0,0,1,61.66,61.66,8,8,0,0,1-5.66,9.8A8.23,8.23,0,0,1,208,112a8,8,0,0,1-7.73-5.94,70.35,70.35,0,0,0-50.33-50.33A8,8,0,0,1,144.27,45.93Zm-2.33,41.8c13.79,3.68,22.65,12.54,26.33,26.33A8,8,0,0,0,176,120a8.23,8.23,0,0,0,2.07-.27,8,8,0,0,0,5.66-9.8c-5.12-19.16-18.5-32.54-37.66-37.66a8,8,0,1,0-4.13,15.46Zm81.94,95.35A56.26,56.26,0,0,1,168,232C88.6,232,24,167.4,24,88A56.26,56.26,0,0,1,72.92,32.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,109.39,104c-.18.27-.37.52-.57.77L88,129.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,223.88,183.08Zm-15.88-2s-.07,0-.11,0h0l-47-21.05-24.35,20.71a8.44,8.44,0,0,1-.74.56,16,16,0,0,1-15.75,1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16,16,0,0,1,1-15.7,6.13,6.13,0,0,1,.57-.77L96,95.15l-21-47a.61.61,0,0,1,0-.12A40.2,40.2,0,0,0,40,88,128.14,128.14,0,0,0,168,216,40.21,40.21,0,0,0,208,181.07Z"
+                ></path>
+              </svg>
+              <span class="fw-semibold fsize-default">Customer service</span>
+              <span class="fsize-sm underline-hover color-hover"
+                >+92 3942 7879</span
+              >
+              <span class="fsize-sm fw-medium text-body-tertiary"
+                >Call us from 8am to 8pm</span
+              >
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center">
+            <div class="d-flex flex-column gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M216,40H40A16,16,0,0,0,24,56V184a16,16,0,0,0,16,16h60.43l13.68,23.94a16,16,0,0,0,27.78,0L155.57,200H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,144H150.93a8,8,0,0,0-7,4l-16,28-16-28a8,8,0,0,0-7-4H40V56H216Z"
+                ></path>
+              </svg>
+              <span class="fw-semibold fsize-default">Chat with us</span>
+              <span
+                class="fsize-sm d-flex gap-1 align-items-center underline-hover color-hover"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  fill="#17e04f"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M232,128A104,104,0,1,1,128,24,104.13,104.13,0,0,1,232,128Z"
+                  ></path>
+                </svg>
+                Live chat</span
+              >
+              <span class="fsize-sm fw-medium text-body-tertiary"
+                >Daily: 8 am to 11 pm</span
+              >
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center">
+            <div class="d-flex flex-column gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"
+                ></path>
+              </svg>
+              <span class="fw-semibold fsize-default">Write to us</span>
+              <a
+                mailto="contact@example.com"
+                class="fsize-sm text-decoration-none underline-hover color-hover"
+              >
+                contact@example.com
+              </a>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-center">
+            <div class="d-flex flex-column gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M256,136a8,8,0,0,1-8,8H232v16a8,8,0,0,1-16,0V144H200a8,8,0,0,1,0-16h16V112a8,8,0,0,1,16,0v16h16A8,8,0,0,1,256,136Zm-57.87,58.85a8,8,0,0,1-12.26,10.3C165.75,181.19,138.09,168,108,168s-57.75,13.19-77.87,37.15a8,8,0,0,1-12.25-10.3c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,164.44,183.18,177.07,198.13,194.85ZM108,152a52,52,0,1,0-52-52A52.06,52.06,0,0,0,108,152Z"
+                ></path>
+              </svg>
+              <span class="fw-semibold fsize-default">Follow us</span>
+              <ul
+                class="social-media-links list-unstyled d-flex gap-3 align-items-center"
+              >
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                    ></path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section id="form-section">
+      <div class="container text-black pb-5 pt-4">
+        <h2 class="fw-semibold text-center fs-3">
+          Do you have some questions?
+        </h2>
+        <form class="row w-75 m-auto gy-3 contactForm">
+          <div class="col-6">
+            <div>
+              <input
+                id="userName"
+                type="text"
+                placeholder="Name and Surname *"
+                class="border-0 p-2 px-3 bg-body-secondary rounded w-100"
+              />
+              <p class="fsize-sm text-danger mt-1 my-alert"></p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div>
+              <input
+                id="userEmail"
+                type="text"
+                placeholder="Email *"
+                class="border-0 p-2 px-3 bg-body-secondary rounded w-100"
+              />
+              <p class="fsize-sm text-danger mt-1 my-alert"></p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              <input
+                id="userSubject"
+                type="text"
+                placeholder="Subject *"
+                class="border-0 p-2 px-3 bg-body-secondary rounded w-100"
+              />
+              <p class="fsize-sm text-danger mt-1 my-alert"></p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div>
+              <textarea
+                placeholder="Message"
+                rows="6"
+                class="border-0 p-2 px-3 bg-body-secondary rounded w-100"
+              ></textarea>
+            </div>
+          </div>
+
+          <div>
+            <button
+              class="text-uppercase w-100 black-btn fsize-sm fw-semibold rounded-1 py-2 bg-color-hover"
+            >
+              get in touch
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="map-section" class="py-5">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26444.959532659745!2d-118.248973!3d34.053619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1757336531854!5m2!1sen!2sus"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section id="stores-section">
+      <div class="container-fluid pb-5">
+        <h2 class="fw-semibold text-center fs-3 text-black">
+          Stores around the world
+        </h2>
+        <div class="px-5 d-flex row mt-4">
+          <div class="col-4">
+            <div class="card border-0 card-hover">
+              <img
+                src="images/about-2.jpg"
+                class="card-img-top rounded"
+                alt="New York"
+              />
+              <div class="card-body px-0">
+                <h3 class="card-title fw-semibold text-black fs-5">
+                  Los Angeles
+                </h3>
+                <p
+                  class="card-text fsize-sm text-body-tertiary fw-medium mt-3 mb-0 p-0"
+                >
+                  34 Main Street, Los Angeles 9021
+                </p>
+                <p class="card-text fsize-sm text-body-tertiary fw-medium mb-1">
+                  United States
+                </p>
+                <span class="card-text fsize-sm text-black"
+                  >+02 1234 567 88</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-0 card-hover">
+              <img
+                src="images/about-3.jpg"
+                class="card-img-top rounded"
+                alt="New York"
+              />
+              <div class="card-body px-0">
+                <h3 class="card-title fw-semibold text-black fs-5">New York</h3>
+                <p
+                  class="card-text fsize-sm text-body-tertiary fw-medium mt-3 mb-0 p-0"
+                >
+                  515 Broadway 10015 New York
+                </p>
+                <p class="card-text fsize-sm text-body-tertiary fw-medium mb-1">
+                  United States
+                </p>
+                <span class="card-text fsize-sm text-black"
+                  >+49 1234 567 88</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-0 card-hover">
+              <img
+                src="images/about-4.jpg"
+                class="card-img-top rounded"
+                alt="New York"
+              />
+              <div class="card-body px-0">
+                <h3 class="card-title fw-semibold text-black fs-5">
+                  California
+                </h3>
+                <p
+                  class="card-text fsize-sm text-body-tertiary fw-medium mt-3 mb-0 p-0"
+                >
+                  1000 California St 68114 Omaha
+                </p>
+                <p class="card-text fsize-sm text-body-tertiary fw-medium mb-1">
+                  United States
+                </p>
+                <span class="card-text fsize-sm text-black"
+                  >+44 1234 567 88</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-charcoal text-white">
+      <div class="container-fluid pb-3 pt-5 px-5">
+        <div class="row">
+          <div class="col-3">
+            <div>
+              <img
+                src="images/logo-white.png"
+                alt="Merto Logo"
+                class="logo-size mb-4"
+              />
+              <span
+                class="fsize-sm text-grey d-flex gap-2 w-75 align-items-start fw-medium mb-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="34"
+                  height="34"
+                  fill="#999999"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"
+                  ></path>
+                </svg>
+                <span class="mt-1"
+                  >29 SE 2nd Ave, Miami Florida 33131, United States</span
+                >
+              </span>
+
+              <span
+                class="fsize-sm text-grey d-flex gap-2 w-75 align-items-start fw-medium mb-4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="#999999"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"
+                  ></path>
+                </svg>
+                <span>info@example.com</span>
+              </span>
+
+              <span class="fs-5 fw-semibold color-hover">(+92) 3942 7879</span>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div>
+              <h4 class="text-uppercase fsize-default mb-4 fw-semibold">
+                shopping
+              </h4>
+              <ul class="list-unstyled">
+                <li class="fsize-sm mb-3 color-hover">Wishlist</li>
+                <li class="fsize-sm mb-3 color-hover">Shop By Brand</li>
+                <li class="fsize-sm mb-3 color-hover">Offers</li>
+                <li class="fsize-sm mb-3 color-hover">Track Order</li>
+                <li class="fsize-sm color-hover">Size Guide</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div>
+              <h4 class="text-uppercase fsize-default mb-4 fw-semibold">
+                information
+              </h4>
+              <ul class="list-unstyled">
+                <li class="fsize-sm mb-3 color-hover">Track Order</li>
+                <li class="fsize-sm mb-3 color-hover">Shipping & Returns</li>
+                <li class="fsize-sm mb-3 color-hover">About us</li>
+                <li class="fsize-sm mb-3 color-hover">Help</li>
+                <li class="fsize-sm color-hover">Gift Cards</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <div>
+              <h4 class="text-uppercase fsize-default mb-4 fw-semibold">
+                account
+              </h4>
+              <ul class="list-unstyled">
+                <li class="fsize-sm mb-3 color-hover">Cart</li>
+                <li class="fsize-sm mb-3 color-hover">My account</li>
+                <li class="fsize-sm mb-3 color-hover">My orders</li>
+                <li class="fsize-sm mb-3 color-hover">Wishlist</li>
+                <li class="fsize-sm color-hover">Affiliate Program</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div>
+              <h4 class="fs-5 fw-semibold mb-4">Let's keep in touch</h4>
+
+              <div
+                class="form-container rounded d-flex justify-content-between align-items-center pe-3 mb-4 border-grey"
+              >
+                <form>
+                  <input
+                    type="text"
+                    placeholder="Enter your email address"
+                    class="bg-transparent border-0 ps-3 py-2 text-white"
+                  />
+                </form>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="#fff"
+                  viewBox="0 0 256 256"
+                  class="color-hover"
+                >
+                  <path
+                    d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <ul
+                class="social-media-links list-unstyled d-flex gap-3 align-items-center"
+              >
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"
+                    ></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                    viewBox="0 0 256 256"
+                    class="color-hover"
+                  >
+                    <path
+                      d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                    ></path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row border-grey rounded px-5 py-4 my-5">
+          <div class="col-4">
+            <div class="d-flex gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                fill="#fff"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"
+                ></path>
+              </svg>
+              <div>
+                <span class="fw-semibold"
+                  >Didn't find what you were looking for?</span
+                >
+                <span class="d-block fsize-sm mt-1">Contact Us</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="d-flex gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                fill="#fff"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM80,108a12,12,0,1,1,12,12A12,12,0,0,1,80,108Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,176,108Zm-1.07,48c-10.29,17.79-27.4,28-46.93,28s-36.63-10.2-46.92-28a8,8,0,1,1,13.84-8c7.47,12.91,19.21,20,33.08,20s25.61-7.1,33.07-20a8,8,0,0,1,13.86,8Z"
+                ></path>
+              </svg>
+              <div>
+                <span class="fw-semibold"> How can we help you today?</span>
+                <span class="d-block fsize-sm mt-1">Help Center</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="d-flex gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="36"
+                fill="#fff"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm39.1,131.79a47.84,47.84,0,0,0,0-55.58l28.5-28.49a87.83,87.83,0,0,1,0,112.56ZM96,128a32,32,0,1,1,32,32A32,32,0,0,1,96,128Zm88.28-67.6L155.79,88.9a47.84,47.84,0,0,0-55.58,0L71.72,60.4a87.83,87.83,0,0,1,112.56,0ZM60.4,71.72l28.5,28.49a47.84,47.84,0,0,0,0,55.58L60.4,184.28a87.83,87.83,0,0,1,0-112.56ZM71.72,195.6l28.49-28.5a47.84,47.84,0,0,0,55.58,0l28.49,28.5a87.83,87.83,0,0,1-112.56,0Z"
+                ></path>
+              </svg>
+              <div>
+                <span class="fw-semibold">
+                  We’d love to hear what you think!</span
+                >
+                <span class="d-block fsize-sm mt-1">Give Feedback</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <p class="fsize-sm text-grey">
+            Copyright © Merto. All Rights Reserved
+          </p>
+          <img
+            src="images/payment-icons-1.png"
+            alt="Payment Icons"
+            class="w-25"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#categories-section"
+      id="upArrow"
+      class="bg-black p-2 rounded position-fixed z-2"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="18"
+        height="18"
+        fill="#fff"
+        viewBox="0 0 256 256"
+      >
+        <path
+          d="M205.66,117.66a8,8,0,0,1-11.32,0L136,59.31V216a8,8,0,0,1-16,0V59.31L61.66,117.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,117.66Z"
+        ></path>
+      </svg>
+    </a>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
